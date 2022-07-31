@@ -14,18 +14,24 @@ nav a {
 }
 a{ 
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     text-shadow: 100px;
 }
 nav a:hover{
-color: white;
+color: rgb(255, 254, 254);
 font-size: 3.5em  
 
    
 }
-body{margin: 0;
+body{
+    color: rgb(134, 108, 138);
+    margin: 0;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image:url(https://i.ytimg.com/vi/jcDZ7TdKvLg/maxresdefault.jpg)
+
+
 }
+
 
 
     h1{font-size:  3.5em;}
