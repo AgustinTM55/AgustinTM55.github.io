@@ -37,6 +37,17 @@ background-image:url(imagenes/negro.jpg)
 
 
 }
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+
+
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 0), .2 ;
+    border-radius: 10px;
+    border-right: 10px solid rgb(95, 4, 95);
+}
 
 
 
@@ -44,3 +55,4 @@ background-image:url(imagenes/negro.jpg)
     p{font-size: 1.4em;}
     h3{font-size: 2.0em;}
     
+   
