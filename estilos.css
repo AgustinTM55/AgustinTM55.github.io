@@ -1,33 +1,39 @@
 header {
     display: flex;
     height: 120px;
-    background-color: rgb(161, 66, 180);
     justify-content: space-between;
     align-items: center;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951832210805745894/AD17AEA1CE96AB1ED7FC7B52A5E007D5ACA9D69F/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    padding: 10px;
 }
+
+
 .logo img{
-height: 120px;
+height: 95px;
+justify-content: start;
+margin: -50px;
 }
 nav a {
     font-weight:bold;
-    padding: 60px; 
+    padding: 30px; 
 }
 a{ 
     text-decoration: none;
     color: rgb(255, 255, 255);
-    text-shadow: 100px;
+    text-shadow: 90px;
 }
 nav a:hover{
-color: rgb(255, 254, 254);
-font-size: 3.5em  
+color: rgb(255, 0, 0);
+font-size: 1.5em  
 
    
 }
 body{
-    color: rgb(134, 108, 138);
+    color: rgb(255, 255, 255);
     margin: 0;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-image:url(imagenes/negro.jpg)
+ 
 
 
 }
@@ -37,3 +43,4 @@ background-image:url(imagenes/negro.jpg)
     h1{font-size:  3.5em;}
     p{font-size: 1.4em;}
     h3{font-size: 2.0em;}
+    
