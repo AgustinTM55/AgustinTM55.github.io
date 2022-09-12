@@ -51,8 +51,29 @@ background-image:url(imagenes/negro.jpg)
 
 
 
-    h1{font-size:  3.5em;}
+    h1 {font-size:  3.5em;}
     p{font-size: 1.4em;}
     h3{font-size: 2.0em;}
-    
-   
+
+    @font-face {
+        font-family:fuentepiola ;
+        src: url(imagenes/fortnite.otf);
+
+    }
+    h1 {
+        font-family:fuentepiola ;
+    }
+   h2 {
+    font-family:fuentepiola ;
+}
+h3 {
+    font-family:fuentepiola ;
+}
+h4 {
+    font-family:fuentepiola ;
+}
+
+p {
+    color:rgb(172, 172, 172) ;
+    font-family:fuentepiola ;
+}
