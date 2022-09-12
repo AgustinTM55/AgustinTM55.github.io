@@ -39,7 +39,7 @@ body{
     color: rgb(255, 255, 255);
     margin: 0;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-image:url(imagenes/negro.jpg)
+background-image:url(imagenes/fondo\ negro.jpg)
  
 
 
@@ -84,7 +84,7 @@ h4 {
 }
 
 p {
-    color:rgb(172, 172, 172) ;
+    color:rgb(255, 255, 255) ;
     font-family:fuentepiola ;
 }
 
