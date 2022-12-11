@@ -1,11 +1,12 @@
 header {
     display: flex;
-    height: 120px;
+    min-height: 120px;
     justify-content: space-between;
     align-items: center;
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951832210805745894/AD17AEA1CE96AB1ED7FC7B52A5E007D5ACA9D69F/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
     padding: 10px;
 }
+
 
 
 .logo img{
@@ -34,6 +35,8 @@ padding: 40px;
 
 
 } 
+
+
 
 body{
     color: rgb(255, 255, 255);
