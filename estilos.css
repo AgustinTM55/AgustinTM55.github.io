@@ -4,21 +4,28 @@ header {
     justify-content: space-between;
     align-items: center;
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951832210805745894/AD17AEA1CE96AB1ED7FC7B52A5E007D5ACA9D69F/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
-    padding: 10px;
+    padding: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 
 
 .logo img{
-height: 95px;
+height: 70px;
 justify-content: start;
 margin: -50px;
+margin-right: 60px;
+margin-block-start: 120px;
+
 }
+
+
 nav a {
     font-weight:bold;
-    padding: 30px; 
+    padding-right: 50px; 
 }
 a{ 
+    
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 90px;
@@ -178,4 +185,24 @@ display: block;
     }
    
 }
-    
+
+
+.container {
+    width: 75vw;
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+
+}
+
+.imagenes {
+width: 100%;
+border-radius: 15px;
+box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+
+
+
+
+
+}
+
